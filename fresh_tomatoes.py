@@ -5,8 +5,7 @@ import re
 
 # Styles and scripting for the page
 main_page_head = '''
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Anirvans Movie Library!</title>
@@ -107,6 +106,8 @@ main_page_head = '''
 
 # The main page layout and title bar
 main_page_content = '''
+ <!DOCTYPE html>
+<html lang="en">
   <body>
     
     <!-- Trailer Video Modal -->
