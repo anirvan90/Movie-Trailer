@@ -108,7 +108,7 @@ main_page_head = '''
 main_page_content = '''
  <!DOCTYPE html>
 <html lang="en">
-  <body>
+  <body background="images/backdrop.jpg">
     
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
