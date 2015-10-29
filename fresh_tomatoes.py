@@ -20,7 +20,7 @@ main_page_head = '''
         body {
             padding-top: 80px;
             font-family: 'Lato', sans-serif;
-            background-size: 100% 100%;
+            background-size: 100%;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
