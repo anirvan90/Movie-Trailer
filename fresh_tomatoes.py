@@ -131,7 +131,7 @@ main_page_content = '''
 '''
 
 
-# A single movie entry html template
+# A single movie entry html template and show info modal for each movie
 movie_tile_content = '''
 <!-- Show Info Modal -->
     <div class="modal fade" id="{tag}">
