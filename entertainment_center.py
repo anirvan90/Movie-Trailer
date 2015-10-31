@@ -49,14 +49,48 @@ the_grand_budapest_hotel = media.Movie("The Grand Budapest Hotel",
 
 in_bruges = media.Movie("In Bruges",
 						"After a particularly difficult job, hit men Ray (Colin Farrell) and Ken (Brendan Gleeson) head to Belgium to hide out until things cool down. Ray hates the medieval city they land in, but Ken finds its beauty and peacefulness enchanting. Their experiences become increasingly surreal and possibly life-changing as they encounter tourists, locals, an American dwarf and a potential romance for Ray.",
-						"http://www.joblo.com/posters/images/full/2008-in_bruges-1.jpg",
+						"images/in-bruges.jpg",
 						"https://www.youtube.com/watch?v=p-gG2qo_l_A",
 						"https://itunes.apple.com/us/movie/in-bruges/id281077778",
 						"http://www.rottentomatoes.com/m/in_bruges/",
 						"000006")
 
+gone_girl = media.Movie("Gone Girl",
+						"In Carthage, Mo., former New York-based writer Nick Dunne (Ben Affleck) and his glamorous wife Amy (Rosamund Pike) present a portrait of a blissful marriage to the public. However, when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance. The resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.",
+						"https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg",
+						"https://www.youtube.com/watch?v=esGn-xKFZdU",
+						"https://itunes.apple.com/us/movie/gone-girl/id917874539",
+						"http://www.rottentomatoes.com/m/gone_girl/",
+						"000007")
 
-movies = [kill_bill, the_departed, inception, the_party, the_grand_budapest_hotel, in_bruges]
+mystic_river = media.Movie("Mystic River",
+							"When the daughter (Emmy Rossum) of ex-con Jimmy Marcus (Sean Penn) is murdered, two of his childhood friends from the neighborhood are involved. Dave (Tim Robbins), a blue-collar worker, was the last person to see her alive, while Sean (Kevin Bacon), a homicide detective, is heading up the case. As Sean proceeds with his investigation, Jimmy conducts one of his own through neighborhood contacts. Eventually, Jimmy suspects Dave is the culprit and considers taking the law into his own hands.",
+							"https://upload.wikimedia.org/wikipedia/en/9/93/Mystic_River_poster.jpg",
+							"https://www.youtube.com/watch?v=AvQaTV_lBuk",
+							"https://itunes.apple.com/us/movie/mystic-river/id540717367",
+							"http://www.rottentomatoes.com/m/mystic_river/",
+							"000008")
+
+american_hustle = media.Movie("American Hustle",
+								"Irving Rosenfeld (Christian Bale) dabbles in forgery and loan-sharking, but when he falls for fellow grifter Sydney Prosser (Amy Adams), things change in a big way. Caught red-handed by FBI agent Richie DiMaso (Bradley Cooper), Irv and Sydney are forced to work under cover as part of DiMaso's sting operation to nail a New Jersey mayor (Jeremy Renner). Meanwhile, Irv's jealous wife (Jennifer Lawrence) may be the one to bring everyone's world crashing down. Based on the 1970s Abscam case.",
+								"https://upload.wikimedia.org/wikipedia/en/8/85/American_Hustle_2013_poster.jpg",
+								"https://www.youtube.com/watch?v=ST7a1aK_lG0",
+								"https://itunes.apple.com/us/movie/american-hustle/id774456362",
+								"http://www.rottentomatoes.com/m/american_hustle/",
+								"000009")
+
+cool_runnings = media.Movie("Cool Runnings",
+							"Four Jamaican bobsledders dream of competing in the Winter Olympics, despite never having seen snow. With the help of a disgraced former champion desperate to redeem himself, the Jamaicans set out to become worthy of Olympic selection, and go all out for glory.",
+							"https://upload.wikimedia.org/wikipedia/en/7/76/Coolrunnings.jpg",
+							"https://www.youtube.com/watch?v=wLlmymHRNZg",
+							"https://itunes.apple.com/us/movie/cool-runnings/id351314818",
+							"http://www.rottentomatoes.com/m/1046227-cool_runnings/",
+							"000010")
+
+
+
+
+movies = [kill_bill, the_departed, inception, the_party, the_grand_budapest_hotel, in_bruges, gone_girl, mystic_river, american_hustle, cool_runnings]
 
 fresh_tomatoes.open_movies_page(movies)
 

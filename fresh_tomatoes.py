@@ -86,18 +86,7 @@ main_page_head = '''
               'frameborder': 0
             }));
         });
-
-        // Animate in the movies when the page loads
-        $(document).ready(function () {
-          $('.extended-tile').hide().first().show("fast", function showNext() {
-            $(this).next("div").show("fast", showNext);
-          });
-        });
-
-        //Open Info Modal
-        $(document).on('click','#info',function(event) {
-                $('.modal-dialog').show();
-            });
+     
 
     </script>
 </head>
@@ -175,13 +164,13 @@ movie_tile_content = '''
             </div>
             
             <div class="col-md-4">
-                <a href="{rt_link}">
+                <a target="_blank" href="{rt_link}">
                 <img src="images/rt_logo.svg" width="110px" height="40px" alt="rotten tomatoes link">
                 </a>
             </div>
 
             <div class="col-md-4">
-                <a href="{itunes_link}">
+                <a target="_blank" href="{itunes_link}">
                 <img src="images/get_on_itunes.svg" alt="itunes link">
                 </a>
             </div>
