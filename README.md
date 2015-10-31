@@ -38,5 +38,9 @@ media.py, entertainment_center.py, fresh_tomatoes.py and images folder must all 
 RUN the entertainment_center.py file. 
 This project is also hosted at anirvan90.github.io
 
+CITATIONS:
+- Udacity: fresh_tomatoes.py was create by udacity with addtions from me
+- Udacity Discussion Forums: Some questions pertaining to the functionality of certain bits of code were answered with the help of other members of the Udacity community, particularly these forums: -https://discussions.udacity.com/t/extend-functionality-of-movie-trailer-website/35531/3
+-https://discussions.udacity.com/t/error-adding-new-modal/36003/23
 
   
