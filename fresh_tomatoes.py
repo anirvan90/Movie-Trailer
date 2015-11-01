@@ -86,8 +86,6 @@ main_page_head = '''
               'frameborder': 0
             }));
         });
-     
-
     </script>
 </head>
 '''
@@ -130,8 +128,13 @@ main_page_content = '''
 
 '''
 
+''' 
+A single movie entry html template and show info modal for each movie.
+Each movie tile contains a top tile with the poster image and title
+and a row with 3 columns containing the info moda, rotten tomatoes link
+and itunes link.
+'''
 
-# A single movie entry html template and show info modal for each movie
 movie_tile_content = '''
 <!-- Show Info Modal -->
     <div class="modal fade" id="{tag}">
@@ -179,8 +182,6 @@ movie_tile_content = '''
 
        
 '''
-
-
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
