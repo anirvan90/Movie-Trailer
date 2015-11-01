@@ -179,8 +179,7 @@ movie_tile_content = '''
             </div>
         </div>   
     </div>
-
-       
+ 
 '''
 
 def create_movie_tiles_content(movies):
@@ -208,7 +207,6 @@ def create_movie_tiles_content(movies):
         )
     return content
 
-
 def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('FSND-P1.html', 'w')
@@ -216,8 +214,6 @@ def open_movies_page(movies):
     # Replace the movie tiles placeholder generated content
     rendered_content = main_page_content.format(
         movie_tiles=create_movie_tiles_content(movies))
-
-
 
     # Output the file
     output_file.write(main_page_head + rendered_content)
